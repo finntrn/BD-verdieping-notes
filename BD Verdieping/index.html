@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BD Verdieping Finn Toornent</title>
+    <link href="style.css" rel=stylesheet>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>       
+        <h1>Muziek en Het Brein</h1>
+        <section>
+            <ul>
+                <li>
+                    <div class="image-container" data-id="intro"
+                         onmouseover="playHoverGif(this)"
+                         onmouseout="resetHoverGif(this)"
+                         onclick="playClickGif(this)">
+                        <img class="static-image" src="./imgs/intro/intro_case_still.png" alt="Record case" style="display: block;">
+                        <img class="hover-gif" src="./imgs/intro/intro_case_hover.gif" alt="Hover GIF" style="display: none;">
+                        <img class="click-gif" src="./imgs/intro/intro_case_click.gif" alt="Click Animation" style="display: none;">
+                        <img class="empty-case" src="./imgs/intro/intro_case_empty.png" alt="Empty case" style="display: none;">
+                    </div>
+                </li>
+                <li>
+                    <div class="image-container" data-id="bp1"
+                         onmouseover="playHoverGif(this)"
+                         onmouseout="resetHoverGif(this)"
+                         onclick="playClickGif(this)">
+                        <img class="static-image" src="./imgs/bp1/bp1_case_still.png" alt="Record case" style="display: block;">
+                        <img class="hover-gif" src="./imgs/bp1/bp1_case_hover.gif" alt="Hover GIF" style="display: none;">
+                        <img class="click-gif" src="./imgs/bp1/bp1_case_click.gif" alt="Click Animation" style="display: none;">
+                        <img class="empty-case" src="./imgs/bp1/bp1_case_empty.png" alt="Empty case" style="display: none;">
+                    </div>
+                </li>
+                <li>
+                    <div class="image-container" data-id="bp2"
+                         onmouseover="playHoverGif(this)"
+                         onmouseout="resetHoverGif(this)"
+                         onclick="playClickGif(this)">
+                        <img class="static-image" src="./imgs/bp2/bp2_case_still.png" alt="Record case" style="display: block;">
+                        <img class="hover-gif" src="./imgs/bp2/bp2_case_hover.gif" alt="Hover GIF" style="display: none;">
+                        <img class="click-gif" src="./imgs/bp2/bp2_case_click.gif" alt="Click Animation" style="display: none;">
+                        <img class="empty-case" src="./imgs/bp2/bp2_case_empty.png" alt="Empty case" style="display: none;">
+                    </div>
+                </li>
+                <li>
+                    <div class="image-container" data-id="bp3"
+                         onmouseover="playHoverGif(this)"
+                         onmouseout="resetHoverGif(this)"
+                         onclick="playClickGif(this)">
+                        <img class="static-image" src="./imgs/bp3/bp3_case_still.png" alt="Record case" style="display: block;">
+                        <img class="hover-gif" src="./imgs/bp3/bp3_case_hover.gif" alt="Hover GIF" style="display: none;">
+                        <img class="click-gif" src="./imgs/bp3/bp3_case_click.gif" alt="Click Animation" style="display: none;">
+                        <img class="empty-case" src="./imgs/bp3/bp3_case_empty.png" alt="Empty case" style="display: none;">
+                    </div>
+                </li>
+                <li>
+                    <div class="image-container" data-id="bfp"
+                         onmouseover="playHoverGif(this)"
+                         onmouseout="resetHoverGif(this)"
+                         onclick="playClickGif(this)">
+                        <img class="static-image" src="./imgs/bfp/bfp_case_still.png" alt="Record case" style="display: block;">
+                        <img class="hover-gif" src="./imgs/bfp/bfp_case_hover.gif" alt="Hover GIF" style="display: none;">
+                        <img class="click-gif" src="./imgs/bfp/bfp_case_click.gif" alt="Click Animation" style="display: none;">
+                        <img class="empty-case" src="./imgs/bfp/bfp_case_empty.png" alt="Empty case" style="display: none;">
+                    </div>
+                </li>
+                <li>
+                    <div class="image-container" data-id="ap1"
+                         onmouseover="playHoverGif(this)"
+                         onmouseout="resetHoverGif(this)"
+                         onclick="playClickGif(this)">
+                        <img class="static-image" src="./imgs/ap1/ap1_case_still.png" alt="Record case" style="display: block;">
+                        <img class="hover-gif" src="./imgs/ap1/ap1_case_hover.gif" alt="Hover GIF" style="display: none;">
+                        <img class="click-gif" src="./imgs/ap1/ap1_case_click.gif" alt="Click Animation" style="display: none;">
+                        <img class="empty-case" src="./imgs/ap1/ap1_case_empty.png" alt="Empty case" style="display: none;">
+                    </div>
+                </li>
+                <li>
+                    <div class="image-container" data-id="ap2"
+                         onmouseover="playHoverGif(this)"
+                         onmouseout="resetHoverGif(this)"
+                         onclick="playClickGif(this)">
+                        <img class="static-image" src="./imgs/ap2/ap2_case_still.png" alt="Record case" style="display: block;">
+                        <img class="hover-gif" src="./imgs/ap2/ap2_case_hover.gif" alt="Hover GIF" style="display: none;">
+                        <img class="click-gif" src="./imgs/ap2/ap2_case_click.gif" alt="Click Animation" style="display: none;">
+                        <img class="empty-case" src="./imgs/ap2/ap2_case_empty.png" alt="Empty case" style="display: none;">
+                    </div>
+                </li>
+            </ul>
+            <h3>< Scroll mij ></h3>
+        </section>
+
+    </header>
+    <main>
+        <img src="./imgs/player_empty.png" alt="Empty Record Player" class="record-player">
+        <div class="controls">
+            <button class="rewind-button" onclick="rewindAudio()">
+                <img src="./imgs/15s_rewind.svg" alt="30 second rewind button">
+            </button>
+            <button class="play-pause-button" onclick="togglePlayPause()">
+                <svg id="pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="display: block;"><!-- Pause SVG -->
+                    <path d="M48 64C21.5 64 0 85.5 0 112L0 400c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48L48 64zm192 0c-26.5 0-48 21.5-48 48l0 288c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-32 0z"/>
+                </svg>
+                <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="display: none;"><!-- Play SVG -->
+                    <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/>
+                </svg>
+            </button>
+            <button class="stop-button" onclick="stopPlayback()">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/>
+                </svg>
+            </button>
+            <button class="forward-button" onclick="forwardAudio()">
+                <img src="./imgs/15s_forward.svg" alt="30 second forward button">
+            </button>
+
+        </div>
+    </main>
+    <footer>
+        <span id="timer" style="display: none;">-0:00</span>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>
